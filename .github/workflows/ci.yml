@@ -16,4 +16,4 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: brew install ./coursier.rb && brew test coursier
+      - run: brew install $(pwd)/coursier.rb && brew test coursier
